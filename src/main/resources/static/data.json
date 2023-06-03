@@ -1,0 +1,63 @@
+[
+  {
+    "id" : 1,
+    "dialogue": "I am the dialogue",
+    "next": 2,
+    "responseOptions": [
+      {
+        "id": 2,
+        "dialogue": "dialogue option 1",
+        "next": 6,
+        "responseOptions": []
+      },
+      {
+        "id": 3,
+        "dialogue": "dialogue option 2",
+        "next": 7,
+        "responseOptions": []
+      },
+      {
+        "id": 4,
+        "dialogue": "dialogue option 3",
+        "next": 8,
+        "responseOptions": []
+      },
+      {
+        "id": 5,
+        "dialogue": "dialogue option 4",
+        "next": 9,
+        "responseOptions": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "dialogue": "You picked dialogue option 1",
+    "next": null,
+    "responseOptions": []
+  },
+  {
+    "id" : 7,
+    "dialogue": "You picked dialogue option 2",
+    "next" : 10,
+    "responseOptions": []
+  },
+  {
+    "id" : 8,
+    "dialogue": "You picked dialogue option 3",
+    "responseOptions": [],
+    "next": null
+  },
+  {
+    "id" : 9,
+    "dialogue": "You picked dialogue option 4",
+    "responseOptions": [],
+    "next": null
+  },
+  {
+    "dialogue": "You are at dialogue of id 10",
+    "id": 10,
+    "next": null,
+    "responseOptions": []
+  }
+]
